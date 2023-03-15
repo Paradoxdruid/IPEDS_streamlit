@@ -47,5 +47,4 @@ st.title("Quick IPEDS data comparisons")
 metric = st.selectbox("Comparison Metric", metrics)
 
 if metric:
-  st.plotly_chart(bat_chart(df, metric)
-
+  st.plotly_chart(bar_chart(df, metric)
